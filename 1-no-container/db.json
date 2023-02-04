@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "marceline",
+      "name": "Marceline Singer",
+      "bio": "Cyclist, musician"
+    },
+    {
+      "id": 2,
+      "username": "finn",
+      "name": "Finn Alberts",
+      "bio": "Adventurer and hero, defender of good"
+    },
+    {
+      "id": 3,
+      "username": "pb",
+      "name": "Paul Barium",
+      "bio": "Scientist, cake lover"
+    },
+    {
+      "id": 4,
+      "username": "jake",
+      "name": "Jake Storm",
+      "bio": "Soccer fan, sky diver"
+    }
+  ],
+
+  "threads": [
+    {
+      "id": 1,
+      "title": "Did you see the Brazil game?",
+      "createdBy": 4
+    },
+    {
+      "id": 2,
+      "title": "New French bakery opening in the neighborhood tomorrow",
+      "createdBy": 3
+    },
+    {
+      "id": 3,
+      "title": "In search of a new guitar",
+      "createdBy": 1
+    }
+  ],
+
+  "posts": [
+    {
+      "thread": 1,
+      "text": "That last goal was awesome!",
+      "user": 4
+    },
+    {
+      "thread": 1,
+      "text": "Yes, the way the ball swerved... What talent!",
+      "user": 2
+    },
+    {
+      "thread": 2,
+      "text": "I have to try their tarts!",
+      "user": 3
+    },
+    {
+      "thread": 2,
+      "text": "I'm planning to stop by in the morning to try their croissants.",
+      "user": 2
+    },
+    {
+      "thread": 2,
+      "text": "I could go for a chocolate eclair!",
+      "user": 1
+    },
+    {
+      "thread": 3,
+      "text": "I need a new acoustic guitar at a good price.",
+      "user": 1
+    }
+  ]
+}
